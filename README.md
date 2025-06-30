@@ -1,38 +1,96 @@
-# student_report_card
+<h1 align="center">📘 Student Report Card Generator</h1>
 
-# 📝 Student Report Card (Rust Console + PDF App)
-
-This is a simple Rust-based console application to generate a **Student Report Card**, calculate grades, and export the final report as a **PDF**. Great for learning Rust, input/output handling, and PDF generation using the `printpdf` crate.
-
----
-
-## 🚀 Features
-
-- 🔹 Enter student details interactively (name, grade, teacher, term, etc.)
-- 🔹 Input subject names and marks
-- 🔹 Calculates:
-  - ✅ Total Marks
-  - ✅ Average
-  - ✅ Final Grade (A/B/C/D)
-- 🔹 Generates a neatly formatted **PDF report card**
-- 🔹 Styled report with bold headers and centered title
+<p align="center">
+  🦀 Built with Rust • 📝 Console App • 💾 File I/O • 📄 PDF Report Card
+</p>
 
 ---
 
-## 📊 Grade Criteria
+### 🚀 Overview
 
-| Grade | Average (%) |
-|-------|--------------|
-| A     | 90+          |
-| B     | 75–89        |
-| C     | 60–74        |
-| D     | Below 60     |
+**Student Report Card** is a CLI-based application developed in Rust that helps educational institutions or tutors manage student data, calculate grades, and generate printable report cards in PDF format.
+
+---
+### 💎 Features
+
+🔹 Enter student details interactively (name, grade, teacher, term, etc.)  
+🔹 Input subject names and marks  
+🔹 Calculates:  
+  ✅ Total Marks  
+  ✅ Average  
+  ✅ Final Grade (A/B/C/D)  
+🔹 Generates a **neatly formatted PDF report card**  
+🔹 Styled output with:  
+  - Bold headers  
+  - Centered title  
+  - Clear, structured layout
+
+---
+### 📊 Grade Criteria
+
+| Grade | Average (%)   |
+|-------|----------------|
+| A     | 90+            |
+| B     | 75 – 89        |
+| C     | 60 – 74        |
+| D     | Below 60       |
 
 ---
 
-## 💻 Run Locally
+### 💻 Tech Stack
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/eshraht/student_report_card.git
-   cd student_report_card
+- 🦀 **Rust** — blazing fast and memory-safe
+- 🖨️ **printpdf** — for generating PDF report cards
+- 📂 **File I/O** — saving/loading student data
+- 🧮 **Rust Standard Library** — for calculations and formatting
+
+---
+
+### 🛠️ How to Run
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/DevManoj19/student_report_card.git
+cd student_report_card
+```
+
+---
+
+#### 2. Build and Run
+
+```bash
+cargo build
+cargo run
+```
+
+---
+
+### 🔮 Future Improvements
+
+* 🌐 Web-based frontend (React + Rust API)
+* ☁️ Cloud storage support for data persistence
+* 🖼️ GUI version using egui or Tauri
+
+---
+
+### 🤝 Contribution
+
+Pull requests and suggestions are always welcome!
+If you'd like to add a feature or fix a bug, fork and raise a PR.
+
+---
+
+### 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  Made with ❤️ in Rust by <a href="https://github.com/DevManoj19">DevManoj19</a>
+</p>
+```
+
+---
+
